@@ -1,0 +1,23 @@
+# MATLAB temporary files
+*.asv
+*.mex*
+*.autosave
+
+# Simulink cache & build
+slprj/
+sccprj/
+*.slxc
+*.slx.autosave
+*.mdl.autosave
+*.autosave
+
+# Backup files
+*~
+*.bak
+
+# OS / IDE junk
+.DS_Store
+Thumbs.db
+
+# VS Code settings (optional)
+.vscode/
