@@ -3,7 +3,7 @@ MATLAB Simulink Project: AC to DC Coverter with rectifier, non-inverting op-amp,
 
 ## Introduction
 
-This mini-project was undertaken to strengthen my understanding of electrical Simscape and circuit theory by analyzing circuit components and their interactions. The focus was on combined circuits and practicing concepts introduced in the Circuit Simulation Onramp, ultimately aiming to achieve AC-to-DC signal conversion.
+This mini-project was undertaken to strengthen my understanding of electrical Simscape and circuit theory by analyzing circuit components and their interactions. The focus was on combined basic circuits and practicing basic concepts introduced in the Circuit Simulation Onramp, ultimately aiming to achieve AC-to-DC signal conversion.
 
 ## Purpose
 The aim is to achieve ~=10 V DC with minimized ripple for stable supply applications.
