@@ -43,7 +43,11 @@ This project demonstrates the design of an AC to DC converter using:
 
 Table of Results: 
 
-![Table of Results](Table%20of%20Results.png)
+![Table of Results](Table%20of%20Results.png)  
+
+10 V AC after transforming:
+
+![10V AC](10V%20AC.png) 
 
 
 
