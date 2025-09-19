@@ -40,7 +40,7 @@ This project demonstrates the design of an AC to DC converter using:
 
 Table of Results: 
 
-![Table of Results](images/Table%20of%20Results.png)
+![Table of Results](Table%20of%20Results.png)
 
 
 
