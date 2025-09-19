@@ -53,6 +53,9 @@ Table of Results:
 
 ![DC](DC.png) 
 
+~10V DC after amplifying:
+
+![10V DC](10V%20DC.png) 
 
 
 
