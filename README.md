@@ -26,7 +26,7 @@ This project demonstrates the design of an AC to DC converter using:
    Capacitance of the filter capacitor: 10 uF     
    Cut-off Frequency = 1/(2 * pi * R*C) = 1.59 Hz    
 ==> After full-wave rectifier, AC ripple frequency is 100 Hz. A low-pass filter attenuates frequencies above its cutoff frequency and allows lower frequencies to pass with little attenuation. Therefore, the 0 Hz DC component of the voltage will remain entirely unattenuated. 1.59 Hz << 100 Hz
-  
+## Circuit Diagram
 
 ## Tools
 - MATLAB Simulink
@@ -34,9 +34,9 @@ This project demonstrates the design of an AC to DC converter using:
 - Basic Circuit Theory
 
 ## Results  
-- Full-wave rectifier: ~=8.6 V DC with ~=172 mV ripple ( Vripple= I/(2*f*C) ==> I = 8.6/5000 = 1.72 mA , 2*f*C = 2*50*100uF = 0.01, Vripple  ~= 172 mV  ) 
-- Op-amp used to restore voltage close to 10 V  (gain ~= 1.16 V, Vripple,op = 172*1.16 ~=200 mV )
-- RC filter further reduced ripple ==> Vripple,final= 200 mV*|H(f)|= 200*|H(100)| ~= 200*0.0116 ~= 3.18 mV and Vout ~= 10 V a DC signal.  
+- Full-wave rectifier: ~=8.6 V DC with ~=172 mV ripple ( V(ripple)= I/(2*f*C) ==> I = 8.6/5000 = 1.72 mA , 2*f*C = 2 * 50 * 100 uF = 0.01, V(ripple)  ~= 172 mV  ) 
+- Op-amp used to restore voltage close to 10 V  (gain ~= 1.16 V, V(ripple,op) = 172*1.16 ~= 200 mV )
+- RC filter further reduced ripple ==> V(ripple,final)= 200 mV*|H(f)|= 200*|H(100)| ~= 200*0.0116 ~= 3.18 mV and V(out) ~= 10 V a DC signal.  
 
 Table of Results: 
 
