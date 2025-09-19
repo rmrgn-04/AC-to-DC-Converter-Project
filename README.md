@@ -37,7 +37,11 @@ This project demonstrates the design of an AC to DC converter using:
 - Full-wave rectifier: ~=8.6 V DC with ~=172 mV ripple ( Vripple= I/(2*f*C) ==> I = 8.6/5000 = 1.72 mA , 2*f*C = 2*50*100uF = 0.01, Vripple  ~= 172 mV  ) 
 - Op-amp used to restore voltage close to 10 V  (gain ~= 1.16 V, Vripple,op = 172*1.16 ~=200 mV )
 - RC filter further reduced ripple ==> Vripple,final= 200 mV*|H(f)|= 200*|H(100)| ~= 200*0.0116 ~= 3.18 mV and Vout ~= 10 V a DC signal.  
-Table of Results: ![Table of Results](images/results_table.png)
+
+Table of Results: 
+
+![Table of Results](images/Table%20of%20Results.png)
+
 
 
 
