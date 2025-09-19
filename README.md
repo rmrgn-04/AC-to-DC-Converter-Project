@@ -57,6 +57,10 @@ Table of Results:
 
 ![10V DC](10V%20DC.png) 
 
+Smooth 10V DC signal as finally:
+
+![Smooth 10V DC](Smooth%2010V%20DC.png)
+
 
 
 
