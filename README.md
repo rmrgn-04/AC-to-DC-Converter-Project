@@ -22,7 +22,7 @@ This project demonstrates the design of an AC to DC converter using:
 - RC low-pass filter ==> First of all, why did not I prefer a serie RL low-pass filter? Since I wanted to consider real life conditions, inductors are generally more expensive and larger than capacitors. Therefore, I preferred a design that is both cost-effective and space-saving.
    Resistor of the filter: 10 kOhm
    Capacitance of the filter capacitor: 10 uF
-   Cut-off Frequency =  $1/(2*pi*R*C)$ = 1.59 Hz
+   $Cut-off Frequency = 1/(2*pi*R*C)$ = 1.59 Hz
    ==> After full-wave rectifier, AC ripple frequency is 100 Hz. A low-pass filter attenuates frequencies above its cutoff frequency and allows lower frequencies to pass with little attenuation. Therefore, the 0 Hz DC component of the voltage will remain entirely unattenuated. 1.59 Hz << 100 Hz
   
 ## Purpose
