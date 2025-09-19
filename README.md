@@ -47,7 +47,7 @@ Table of Results:
 
 10 V AC after transforming:
 
-![10V AC](10V%20AC.png) 
+![10V AC](10V%20AC%20.png) 
 
 
 
