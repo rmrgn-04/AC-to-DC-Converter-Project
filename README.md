@@ -49,6 +49,9 @@ Table of Results:
 
 ![10V AC](10V%20AC%20.png) 
 
+~8.6V DC after rectifying:
+
+![DC](DC.png) 
 
 
 
