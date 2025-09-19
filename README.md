@@ -8,6 +8,9 @@ This mini-project was undertaken to strengthen my understanding of electrical Si
 ## Purpose
 The aim is to achieve ~=10 V DC with minimized ripple for stable supply applications.
 
+## Circuit Diagram
+![Circuit Diagram](Circuit%20Diagram.png)
+
 ## Project in Detail (How it works?, The logic explanation, Features,Components Used)
 
 This project demonstrates the design of an AC to DC converter using:
@@ -26,8 +29,7 @@ This project demonstrates the design of an AC to DC converter using:
    Capacitance of the filter capacitor: 10 uF     
    Cut-off Frequency = 1/(2 * pi * R*C) = 1.59 Hz    
 ==> After full-wave rectifier, AC ripple frequency is 100 Hz. A low-pass filter attenuates frequencies above its cutoff frequency and allows lower frequencies to pass with little attenuation. Therefore, the 0 Hz DC component of the voltage will remain entirely unattenuated. 1.59 Hz << 100 Hz
-## Circuit Diagram
-![Circuit Diagram](Circuit%20Diagram.png)
+
 
 ## Tools
 - MATLAB Simulink
