@@ -39,7 +39,7 @@ This project demonstrates the design of an AC to DC converter using:
 ## Results  
 - Full-wave rectifier: ~=8.6 V DC with ~=172 mV ripple ( V(ripple)= I/(2*f*C) ==> I = 8.6/5000 = 1.72 mA , 2*f*C = 2 * 50 * 100 uF = 0.01, V(ripple)  ~= 172 mV  ) 
 - Op-amp used to restore voltage close to 10 V  (gain ~= 1.16 V, V(ripple,op) = 172*1.16 ~= 200 mV )
-- RC filter further reduced ripple ==> Last ripple voltage: 200 mV, V(ripple,final)= 200 mV*|H(f)|= 200*|H(100)| ~= 200*0.0116 ~= 3.18 mV. Since it is linear, multiplying with pre-filter ripple voltage with filter's amplitude transfer which is $|H(f)|= 1/( (1+(f/fc)^2)^1/2 )$ where fc is cutoff frequency and f is 100 Hz. 
+- RC filter further reduced ripple ==> Last ripple voltage: 200 mV, V(ripple,final)= 200 mV*|H(f)|= 200*|H(100)| ~= 200*0.0116 ~= 3.18 mV. Since it is linear, multiplying with pre-filter ripple voltage with filter's amplitude transfer which is $|H(f)|= 1/( (1+(f/fc)^2)^0.5 )$ where fc is cutoff frequency and f is 100 Hz. 
 
 Table of Results: 
 
